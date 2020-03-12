@@ -5,15 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ImageResizer
+
+namespace ImageResizerV1
 {
-    /// <summary>
-    /// 原始版本，沒有使用非同步的方法
-    /// 修改前，5秒
-    /// </summary>
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             string sourcePath = Path.Combine(Environment.CurrentDirectory, "images");
             string destinationPath = Path.Combine(Environment.CurrentDirectory, "output"); ;
@@ -24,7 +21,7 @@ namespace ImageResizer
 
             Stopwatch sw = new Stopwatch();
             sw.Start();
-            imageProcess.ResizeImages(sourcePath, destinationPath, 2.0);
+            await imageProcess.ResizeImagesAsync(sourcePath, destinationPath, 2.0);
             sw.Stop();
 
             Console.WriteLine($"花費時間: {sw.ElapsedMilliseconds} ms");

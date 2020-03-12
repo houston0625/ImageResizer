@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CA8007FD-97C5-4652-8AEA-CF99CAE1F210}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Images</RootNamespace>
+    <AssemblyName>Images</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Image\-tCwodsN8Uw.jpg" />
+    <Content Include="Image\4o2vwgYTMkM.jpg" />
+    <Content Include="Image\5jd6ZJHnKwo.jpg" />
+    <Content Include="Image\6CxiNWJceow.jpg" />
+    <Content Include="Image\6kov0YQCRFg.jpg" />
+    <Content Include="Image\6lhaBHTXvPs.jpg" />
+    <Content Include="Image\83zPlx177kk.jpg" />
+    <Content Include="Image\84JNi-0BkAQ.jpg" />
+    <Content Include="Image\ArpZRPreOHg.jpg" />
+    <Content Include="Image\ayxILjlINlg.jpg" />
+    <Content Include="Image\bSsME3J0X5s.jpg" />
+    <Content Include="Image\bUdM4u1mGIU.jpg" />
+    <Content Include="Image\CIxI3XL1Sz4.jpg" />
+    <Content Include="Image\CwEjW-Q5SHQ.jpg" />
+    <Content Include="Image\CzKI2-nejUk.jpg" />
+    <Content Include="Image\do4a-a29Ru4.jpg" />
+    <Content Include="Image\ELISIYFi-ws.jpg" />
+    <Content Include="Image\eTLKz1gEVoQ.jpg" />
+    <Content Include="Image\FhQyFxgdeKA.jpg" />
+    <Content Include="Image\FZNaviFVggQ.jpg" />
+    <Content Include="Image\GUU6R_UuY7k.jpg" />
+    <Content Include="Image\H7srcJh4hF8.jpg" />
+    <Content Include="Image\heeEKtHAYEg.jpg" />
+    <Content Include="Image\Hui8VyCnqJI.jpg" />
+    <Content Include="Image\i3AzQT0vejk.jpg" />
+    <Content Include="Image\iTppyaWMJ70.jpg" />
+    <Content Include="Image\JYiTP2GZhqM.jpg" />
+    <Content Include="Image\kr1Cx6JSlcE.jpg" />
+    <Content Include="Image\kwdQUpw_UUE.jpg" />
+    <Content Include="Image\KwEvTrWK004.jpg" />
+    <Content Include="Image\l0hhv126ykY.jpg" />
+    <Content Include="Image\L0rxoED50k0.jpg" />
+    <Content Include="Image\lZR4hlD56uY.jpg" />
+    <Content Include="Image\NxCUU0lujD8.jpg" />
+    <Content Include="Image\OceHnUOl7vI.jpg" />
+    <Content Include="Image\PdbSMKkmU8Y.jpg" />
+    <Content Include="Image\pR9D-7ztGmA.jpg" />
+    <Content Include="Image\sEEu4XL1LO8.jpg" />
+    <Content Include="Image\SM6SrIidrq4.jpg" />
+    <Content Include="Image\sZnnEFvpKqY.jpg" />
+    <Content Include="Image\TBNbpd6Xs_4.jpg" />
+    <Content Include="Image\Tz3A1ByTkq0.jpg" />
+    <Content Include="Image\VF3lq0SMlxY.jpg" />
+    <Content Include="Image\WX2LJRq46bg.jpg" />
+    <Content Include="Image\XDTLnFdXnEw.jpg" />
+    <Content Include="Image\xOZS9DeDe88.jpg" />
+    <Content Include="Image\x_G5TJZQF1A.jpg" />
+    <Content Include="Image\yn97LNy0bao.jpg" />
+    <Content Include="Image\Zzz2AkwQiDY.jpg" />
+    <Content Include="Image\_NdyDD-tZlM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Image\__credits.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
